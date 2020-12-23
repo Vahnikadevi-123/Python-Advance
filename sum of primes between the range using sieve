@@ -1,6 +1,7 @@
 ## input ---> 1 6 (including 1 and 6)
    output---> 10
 expanation ---> primes between 1 and 6 are  2,3,5 
+                so, 2+3+5=10
 
 
 n=1000000
