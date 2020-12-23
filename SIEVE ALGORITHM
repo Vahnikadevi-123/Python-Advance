@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 n=1000001
 sieve=[1 for i in range(n+1)]
 sieve[0]=0
