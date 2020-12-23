@@ -1,4 +1,7 @@
 
+
+
+
 n=1000000
 sieve=[1 for i in range(n+1)]
 sieve[0]=0
