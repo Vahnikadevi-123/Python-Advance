@@ -1,1 +1,16 @@
-
+n=1000001
+sieve=[1 for i in range(n+1)]
+sieve[0]=0
+sieve[1]=0
+i=2
+while(i*i<=n):
+    if sieve[i]==1:
+        for j in range(i*i,n+1,i):
+            sieve[j]=0
+    i+=1
+print(sieve)
+n=int(input())
+if sieve[n]==1:
+    print("prime")
+else:
+    print("not prime")
