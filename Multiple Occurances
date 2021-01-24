@@ -1,1 +1,13 @@
 
+L=[1,2,3,3,2]
+d={}
+sum1=0
+for i in range(len(L)):
+    if L[i] not in d:
+        d[L[i]]=[]
+        d[L[i]].append(i+1)
+    else:
+        d[L[i]].append(i+1)
+for i in d.keys():
+    sum1+=abs(d[i][-1]-d[i][0])
+print(sum1)
