@@ -4,3 +4,16 @@ x=sorted(nums)
 for i in nums:
     L1.append(x.index(i))
 print(L1)
+
+
+nums=[8,1,2,2,3]    ------> 2(USING DICTIONARIES)
+d={}
+L=[]
+x=sorted(nums)
+for i in nums:
+    if i not in d:
+        d[i]=x.index(i)
+    c=d.values()
+for _ in c:
+    L.append(_)
+print(L)
