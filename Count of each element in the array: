@@ -5,3 +5,5 @@ d={}
 for i in L1:
     d[i]=L.count(i)
 print(d)
+
+## Using Hashmap:
