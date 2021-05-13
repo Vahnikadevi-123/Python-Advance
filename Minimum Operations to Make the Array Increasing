@@ -1,6 +1,6 @@
 
 
-nums=
+nums=list(map(int,input().split()))
 arr=[0 for i in range(len(nums))]
 arr[0]=nums[0]
 s=0
