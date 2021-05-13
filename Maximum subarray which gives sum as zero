@@ -12,5 +12,5 @@ for i in range(n):
         maxi=max(maxi,i-d[prefix])
     else:
         d[prefix]=i
-return maxi
+print(maxi)
 
