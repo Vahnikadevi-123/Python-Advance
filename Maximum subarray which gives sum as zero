@@ -5,12 +5,12 @@ prefix=0
 d={}
 maxi=0
 for i in range(n):
-prefix+=arr[i]
-if prefix==0:
-    maxi=i+1
-if (prefix in d.keys()):
-    maxi=max(maxi,i-d[prefix])
-else:
-    d[prefix]=i
+    prefix+=arr[i]
+    if prefix==0:
+        maxi=i+1
+    if (prefix in d.keys()):
+        maxi=max(maxi,i-d[prefix])
+    else:
+        d[prefix]=i
 return maxi
 
