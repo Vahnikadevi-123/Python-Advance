@@ -1,3 +1,5 @@
+
+
 nums=[8]
 arr=[0 for i in range(len(nums))]
 arr[0]=nums[0]
