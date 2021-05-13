@@ -6,8 +6,7 @@ d={}
 maxi=0
 for i in range(n):
 prefix=0
-    d={}
-    maxi=0
+d={}maxi=0
     for i in range(n):
         prefix+=arr[i]
         if prefix==0:
