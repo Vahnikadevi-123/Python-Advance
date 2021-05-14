@@ -1,4 +1,4 @@
-
+nums=
 e_n=[]
 o_n=[]
 for i in range(len(nums)):
