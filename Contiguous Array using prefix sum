@@ -1,4 +1,4 @@
-arr=
+arr=list(map(int,input().split()))
 prefix=0
 d={}
 maxi=0
