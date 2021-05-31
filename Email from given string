@@ -1,2 +1,11 @@
 import re
+p=r"([\w\.-]+)@([\w\.-]+)(\.[\w\.]+)"
+s=input()
+res=re.search(p,s)
+if res:
+    print(res.group())
+else:
+    print("no match")
+        
+
 
